@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WorkWithFile {
-	private BufferedReader br;
+    private BufferedReader br;
     private Map<String, BufferedWriter> writers;
     private Map<String, BufferedReader> readers = new HashMap<String, BufferedReader>();
     private String path;
